@@ -66,7 +66,7 @@ header{
     position: relative;
     display: inline-block;
 }
-  
+
   /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
@@ -592,7 +592,6 @@ input[type='radio'] {
 
 /* !SIXTH SECTION FAQ */
 .faq-container{
-    height: 500px;
     padding-top: 60px;
 }
 
@@ -623,6 +622,23 @@ input[type='radio'] {
 .first-li{
     border-top: 1px solid black;
 }
+
+/* ???????????????????????????????????faq drop */
+.collapse{
+  /*   max-height: 60px; */
+    overflow: scroll;
+    display: none;
+    width: 100%;
+}
+
+.question:hover + .collapse{
+    display: block;
+    overflow: hidden;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgb(73, 72, 72);
+}
+
 /* !FOOTER */
 footer{
     background-color: black;
