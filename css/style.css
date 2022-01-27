@@ -57,8 +57,46 @@ header{
     position: sticky;
     top: 10px;
     background-color: white;
-    z-index: 2;
+    z-index: 2; 
 }
+
+/* aaaaaaaaaaa */
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 2px 0 2px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+    text-decoration: underline;
+    
+}
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* !aaaaaaaaaaaaaaaaaaaaaaaaaaa */
 
 header > section{
     width: 100%;
