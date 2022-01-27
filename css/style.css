@@ -684,6 +684,15 @@ footer option{
     color: black;
 }
 
+.list-footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.list-footer a{
+    color: white;
+    text-decoration: none;
+}
 
 /* ? id  */
 #logo{
