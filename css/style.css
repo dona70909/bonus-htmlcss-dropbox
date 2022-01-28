@@ -448,6 +448,15 @@ input[type='radio'] {
     padding-top: 100px;
 }
 
+.column-designit:hover {
+    border-top: 5px solid black;
+    border-top-width: 20px;
+}
+
+.column-designit{
+    border-top-width: 10px;
+    transition: border 10s linear 1s;
+}
 /* ****************************************************** SVG TRY ***********************************************/ù
 
 .relative{
