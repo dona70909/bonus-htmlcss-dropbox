@@ -388,6 +388,7 @@ input[type='radio'] {
 .clm-text > h2{
     font-size: 30px;
     padding-bottom:20px ;
+    font-weight: 700;
 } 
 
 .clm-text button{
@@ -399,6 +400,7 @@ input[type='radio'] {
 .title-third-section{
     font-size: 30px;
     margin-bottom: 40px;
+    font-weight: 800;
 }
 
 .small-clm-img{
@@ -418,6 +420,11 @@ input[type='radio'] {
 .small-clm-img > h3{
     font-size: 20px;
     margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.small-clm-img > p{
+    font-weight: 600;
 }
 
 .row-bottom{
@@ -425,12 +432,14 @@ input[type='radio'] {
 }
 
 .container-title-link > h2{
+    font-weight: 800;
     width: 630px;
     margin-bottom: 30px;
     font-size: 50px;
 }
 .container-title-link > a{
     color:#2275ff;
+    font-weight: 700;
 }
 /* !Fourth section  with 3 columns : 2 with images and the middle one with text  SVG IMG */
 .column-image-brands{
@@ -451,6 +460,11 @@ input[type='radio'] {
     margin-bottom: 20px;
     /* prova svg */
     padding-top: 100px;
+    font-weight: 600;
+}
+
+.column-designit > address{
+    font-weight: 600;
 }
 
 .column-designit:hover {
@@ -616,17 +630,20 @@ input[type='radio'] {
 
 .clm-left-title > h2{
     color:#61082b;
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: 800;
 }
 .clm-right-button{
     width: 50%;
     height:150px;
+    
 }
 
 .clm-right-button button{
     border: none;
     padding: 7px 70px;
     font-size: 15px;
+    font-weight: 700;
 }
 
 .clm-left-title > h2{
@@ -647,13 +664,15 @@ input[type='radio'] {
 }
 
 .faq-container li{
-    font-weight: 900;
-    font-size: 18px;
+    font-weight: 800;
+    font-size: 15px;
+    font-weight: 800;
 }
 
 .faq-container > h1{
     margin-bottom: 50px;
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: 800;
     padding-left: 20px;
 }
 
