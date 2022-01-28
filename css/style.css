@@ -185,13 +185,12 @@ header button{
 .container-link-jumbo > a{
     text-decoration: none;
     color: black;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .jumbotron{
     background-color: #b4d0e7;
     height: 620px;
-   
 }
 
 .jumbotron-title{
@@ -217,7 +216,6 @@ header button{
     margin-bottom: 20px;
     padding-top: 20px;
     font-size: 14px;
-    font-weight: 700; 
 
 }
 
