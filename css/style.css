@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans, sans-serif';
+    font-family: 'Open Sans', sans-serif;
 }
 
 html{
@@ -117,7 +117,7 @@ header li{
     display: inline;
     padding-right:20px ;
     vertical-align: middle;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 /* ?solo per header?? */
@@ -148,6 +148,7 @@ footer > section{
 
 .small-clm-jumbo > .fa-arrow-down{
     font-size: 40px;
+    
 }
 
 
@@ -189,12 +190,14 @@ header button{
 
 .jumbotron{
     background-color: #b4d0e7;
-    height: 620px; 
+    height: 620px;
+   
 }
 
 .jumbotron-title{
-    font-size: 70px;
+    font-size: 60px;
     padding: 50px 0 20px 0;
+    font-weight: 800;
 }
 
 
@@ -208,11 +211,13 @@ header button{
 
 .small-clm-jumbo > p{
     margin-bottom: 20px;
+    font-weight: 600; 
 }
 .container-link-jumbo{
     margin-bottom: 20px;
     padding-top: 20px;
     font-size: 14px;
+    font-weight: 700; 
 
 }
 
@@ -223,6 +228,7 @@ header button{
 .jumbotron button{
     padding: 10px 18px;
     font-size: 15px;
+    font-weight: 600; 
 }
 /*  ***************************! MAIN ****************/
 /* ?section one's column SMALL-CLM (FIRST AND THIRD SECTION) DELETE CLM-SHORT */
@@ -258,7 +264,7 @@ input[type='radio'] {
 .business-plans > h2{
     padding-top: 100px;
     font-size: 45px;
-    font-weight: bold;
+    font-weight: 700;
     margin-bottom: 20px;
 }
 
@@ -283,12 +289,10 @@ input[type='radio'] {
     font-weight: 700;
 }
 
-.container-list-plans > ul > li{
-    font-size: 15px;
-}
 
 .business-plans h3,h4,h6{
     margin-bottom: 15px;
+    font-weight: 800; 
 }
 
 .business-plans h6{
@@ -296,16 +300,14 @@ input[type='radio'] {
     margin-bottom: 30px;
 }
 
-.business-plans  h3{
-    font-weight:900;
-}
-
 .container-list-plans > ul{
     margin-bottom: 40px;
+    font-size: 13px;
 }
 
 .container-list-plans > ul > li{
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .bottom-list-plans{
@@ -314,11 +316,13 @@ input[type='radio'] {
 
 .container-list-plans > button{
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 .container-list-plans p{
     margin-bottom: 50px;
     font-size: 13px;
+    font-weight: 600;
 }
 
 .container-list-plans p>a{
@@ -358,6 +362,7 @@ input[type='radio'] {
 
 .row-small button{
     padding: 7px 70px;
+    font-weight: 600;
 }
 /* _________________________________________________________________ */
 /* secction 2 COLUMN ONLY FOR THE SECOND SECTION 50% 50% */
