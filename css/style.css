@@ -25,13 +25,13 @@ html{
     float: right;
 }
 
-/* .relative{
+.relative{
     position: relative;
 }
 .absolute{
     position: absolute;
 }
- */
+
 /*?? __________________________________Buttons______________*/
 .btn-blue{
     background-color: #0061ff;
@@ -456,7 +456,7 @@ input[type='radio'] {
 
 .absolute{
     position:absolute;
-}
+} 
 
 .svg-middle{
     width: 100px;
@@ -472,7 +472,12 @@ input[type='radio'] {
     background-color: #a2d39b;
     top: 0;
     left: 0;
-    border:10px solid #d0e9cd ;
+   
+}
+
+.svg-img-green:hover{
+    transition:border 3s;
+    border:15px solid #d0e9cd ;
 }
 
 .svg-img-green > object{
@@ -487,6 +492,11 @@ input[type='radio'] {
     background-color: #61082b;
 }
 
+.svg-img-darkred:hover{
+    transition:border 3s;
+    border:15px solid #942350; ;
+}
+
 
 .svg-img-cyano{
     width: 50%;
@@ -496,9 +506,11 @@ input[type='radio'] {
     left:0;
 }
 
-.svg-img-cyano > object{
-   width: px;
+.svg-img-cyano:hover{
+    transition:border 3s;
+    border:15px solid #02aaec;
 }
+
 
 .svg-img-strongred{
     width: 50%;
@@ -509,6 +521,11 @@ input[type='radio'] {
     
 }
 
+.svg-img-strongred:hover{
+    transition:border 3s;
+    border: 15px solid #fc4545;
+}
+
 .svg-img-weakred{
     background-color: #d5001f;
     width: 50%;
@@ -517,12 +534,22 @@ input[type='radio'] {
     left:0;
 }
 
+.svg-img-weakred:hover{
+    transition:border 3s;
+    border: 15px solid #cc344b;
+}
+
 .svg-img-lightblue{
     width: 50%;
     height: 50%;
     top:0;
     right:0;
     background-color: #b4d0e7;
+}
+
+.svg-img-lightblue:hover{
+    transition:border 3s;
+    border: 15px solid #c0d4e4;
 }
 
 .svg-img-blue{
@@ -534,14 +561,24 @@ input[type='radio'] {
     
 }
 
+.svg-img-blue:hover{
+    transition:border 3s;
+    border: 15px solid #1333b4;
+}
+
 .svg-img-yellow{
     width: 50%;
     height: 50%;
     bottom:0;
     right: 0;
     background-color: #ffd830;
-
 }
+
+.svg-img-yellow:hover{
+    transition:border 3s;
+    border: 15px solid #ffe675;
+}
+
 
 .container-logo-designit > .logo-designit{
     top:20px;
@@ -553,12 +590,7 @@ input[type='radio'] {
     margin-bottom: 0;
 }
 
-.absolute{
-    position: absolute;
-}
-.relative{
-    position: relative;
-}
+
 
 /* ***************************************************************** END SVG'S SECTION******************* */
 
