@@ -286,7 +286,6 @@ input[type='radio'] {
     text-align: center;
     padding: 10px 0 10px 0;
     font-size: 15px;
-    font-weight: 700;
 }
 
 
@@ -500,7 +499,6 @@ input[type='radio'] {
     background-color: #a2d39b;
     top: 0;
     left: 0;
-   
 }
 
 .svg-img-green:hover{
